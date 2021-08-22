@@ -1,0 +1,31 @@
+.attribution { 
+   font-size: 11px; text-align: center; 
+}
+.attribution a { 
+   color: hsl(228, 45%, 44%);
+}
+main{
+   background-color: hsl(233, 47%, 7%);
+   min-height: 375px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.card{
+   background-color: hsl(244, 38%, 16%);
+}
+.accent{
+   color: hsl(277, 64%, 61%);
+}
+.heading{
+   color: hsl(0, 0%, 100%);
+}
+.paragraph{
+   color: hsla(0, 0%, 100%, 0.75);
+}
+.stat{
+color: hsl(0, 0%, 100%);
+}
+.statHeading{
+   color: hsla(0, 0%, 100%, 0.6);
+}

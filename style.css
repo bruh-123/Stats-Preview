@@ -48,7 +48,13 @@ img {
 	border-radius: 8px 8px 0px 0px;
 	max-width: 100%;
 	mix-blend-mode: multiply;
+}
+
+.mobile {
 	display: block;
+}
+.desktop {
+	display: none;
 }
 
 h1 {
@@ -97,10 +103,64 @@ h1 {
 	font-size: 0.75rem;
 }
 
-@media (min-width: 1024px) {
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	color: white;
+	margin-bottom:5rem;
+ }
+ 
+ .attribution a {
+	color: hsl(228, 45%, 44%);
+ }
+
+@media (min-width: 1240px) {
+	body {
+		width: 100vw;
+		height: 100vh;
+	}
 	.card {
-		width: 1000px;
+		width: 80%;
 		height: 446px;
 		flex-direction: row-reverse;
+	}
+	.cover {
+		border-radius: 0px 8px 8px 0px;
+		height: 100%;
+		width: 100%;
+	}
+	img {
+		border-radius: 0px 8px 8px 0px;
+		min-height: 100%;
+	}
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display: block;
+	}
+	h1{
+		text-align: left;
+		padding-left: 0;
+	}
+	.paragraph{
+		text-align: left;
+		padding-left: 0;
+	}
+	.content{
+		display: flex;
+		flex-direction: column;
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+	.stats-container{
+		flex-direction: row;
+	}
+	.stat{
+		margin-right: 3rem;
+		text-align: left;
+	}
+	.statHeading{
+		text-align: left;
 	}
 }

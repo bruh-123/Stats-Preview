@@ -7,43 +7,55 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Inter:wght@400;700&family=Lexend+Deca&display=swap">
+
+  
+
 
   <title>Frontend Mentor | Stats preview card component</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <main>
-    <div class="card">
+  <main class="card">
+    <div class="cover">
       <img src="./images/image-header-mobile.jpg" alt="">
-
-      <h2 class="heading">
-        Get <span class="accent">insights</span> that help your business grow.
-      </h2>
-      <p class="paragraph">
-        Discover the benefits of data analytics and make better decisions regarding revenue, customer
-        experience, and overall efficiency.
-      </p>
-
-      <p class="stat">10k+</p>
-      <p class="statHeading">
-        companies
-      </p>
-      <p class="stat">314</p>
-      <p class="statHeading">
-        templates
-      </p>
-      <p class="stat">12m+</p>
-      <p class="statHeading">
-        queries
-      </p>
-    </div>
-  </main>
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      </div>
+      <div>
+        <h1>
+          Get <span class="accent">insights</span> that help your business grow.
+        </h1>
+        <p class="paragraph">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.
+        </p>
+        <div class="stats-container">  
+          <p class="stat">
+            10K+
+            <br>
+          <span class="statHeading">
+            COMPANIES
+          </span>
+          </p>
+          <p class="stat">
+            314
+            <br>
+          <span class="statHeading">
+            TEMPLATES
+          </span>
+          </p>
+          <p class="stat">
+            12M+
+            <br>
+          <span class="statHeading">
+            QUERIES 
+          </span>
+          </p>
+        </div>
+      </div>
+    </main>
+      
 </body>
 
 </html>
